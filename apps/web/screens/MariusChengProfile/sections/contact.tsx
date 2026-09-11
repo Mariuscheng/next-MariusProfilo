@@ -3,9 +3,9 @@ import { Section, SectionHeading } from "./shared"
 
 export function Contact() {
   return (
-    <Section className="px-6 pb-[120px] pt-[100px] md:px-16 lg:px-[120px]">
+    <Section className="px-6 pb-[100px] pt-[80px] sm:pb-[120px] sm:pt-[100px] md:px-16 lg:px-[120px]">
       <SectionHeading eyebrow="Contact Me" title="Let's connect" />
-      <div className="flex w-full flex-col gap-[40px] rounded-[24px] border border-[#e6e1d8] bg-white p-[40px] shadow-[0px_8px_12px_rgba(0,0,0,0.05)] lg:flex-row">
+      <div className="flex w-full flex-col gap-[40px] rounded-[24px] border border-[#e6e1d8] bg-white p-[24px] shadow-[0px_8px_12px_rgba(0,0,0,0.05)] sm:p-[40px] lg:flex-row">
         <div className="flex min-w-0 flex-1 flex-col gap-[24px]">
           <div className="flex flex-col gap-[8px]">
             <p className="text-[13px] font-semibold uppercase tracking-[0.78px] text-[#7a8a7f]">

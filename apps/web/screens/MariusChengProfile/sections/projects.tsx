@@ -11,7 +11,7 @@ export function Projects() {
         {projects.map((project) => (
           <div
             key={project.title}
-            className="flex min-w-0 flex-1 flex-col gap-[20px] rounded-[24px] border border-[#e6e1d8] bg-white p-[32px] shadow-[0px_8px_12px_rgba(0,0,0,0.05)]"
+            className="flex min-w-0 flex-1 flex-col gap-[20px] rounded-[24px] border border-[#e6e1d8] bg-white p-[24px] shadow-[0px_8px_12px_rgba(0,0,0,0.05)] sm:p-[32px]"
           >
             <div className="flex w-full items-center gap-[16px]">
               <div className="flex size-[48px] shrink-0 items-center justify-center rounded-[12px] border border-[#e6e1d8] bg-[#f7f4f0]">
